@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--
+        File Name   : logout.html
+        Author      : Jakkula Vinay
+        Created On  : 11-May-2026
+        Description : Logout confirmation page
+    -->
+
+    <meta charset="UTF-8">
+    <title>Logout | Secure App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Reuse login.css for consistent UI -->
+    <link rel="stylesheet" href="css/login.css">
+</head>
+
+<body>
+
+<div class="login-container">
+    <h2>Logged Out</h2>
+
+    <p style="text-align:center; color:#555; margin-bottom:20px;">
+        You have been logged out successfully.
+    </p>
+
+    <!-- Redirect user back to login page -->
+    <a href="login.html">
+        <button class="login-btn">Login Again</button>
+    </a>
+
+    <div class="footer-text">
+        © 2026 Secure Application
+    </div>
+</div>
+
+</body>
+</html>
