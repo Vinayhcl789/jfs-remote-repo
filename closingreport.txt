@@ -1,0 +1,35 @@
+------------------------------------------------------------
+                    CLOSING REPORT
+------------------------------------------------------------
+
+Project Title   : Secure Login & Logout Module
+Author          : Jakkula Vinay
+Date            : 11-May-2026
+Technology Stack: HTML, CSS, Java (Servlets), Oracle SQL, Selenium
+------------------------------------------------------------
+
+1. INTRODUCTION
+------------------------------------------------------------
+The objective of this project was to design and implement a
+secure login and logout module using Java Full Stack
+technologies. The system ensures authenticated access,
+proper session management, secure password handling, and
+auditable user activity.
+
+------------------------------------------------------------
+2. FUNCTIONAL SCOPE
+------------------------------------------------------------
+The following functionalities were successfully implemented:
+
+• User Login using username and password
+• Secure password verification using hashing (BCrypt)
+• Session creation on successful login
+• Access control using session validation
+• User Logout with session invalidation
+• Login and Logout audit support (database level)
+• Automated UI testing using Selenium
+
+------------------------------------------------------------
+3. FRONTEND IMPLEMENTATION
+------------------------------------------------------------
+• login.html:
